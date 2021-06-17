@@ -1,0 +1,21 @@
+ [
+    { 
+      "name": "Deepak", 
+      "password": "apple20",
+      "role": "author"
+    },
+
+    {
+       "name": "Gunjan",
+       "password": "banana20",
+       "role": "user"
+    },
+ 
+    {
+      "name": "Niyati",
+      "password": "orange20",
+      "role":"public" 
+   }
+
+  ]
+
