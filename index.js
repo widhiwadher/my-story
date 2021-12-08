@@ -21,7 +21,7 @@ app.get("/login", (req, res) => {
 })
 
 app.get("/", (req, res) => {
-    res.send("hello world- explore my thoughts");
+    res.send("hello hi its a medium app");
 })
 
  app.post ("/submit", (req,res) => {
@@ -38,3 +38,10 @@ app.listen(port, (req, res) => {
 })
 
 
+function graterNum (num1, num2) {
+    if (num1 > num2 ) {
+        return ("The grater number is "+num1);
+    } 
+    else { return "The grater number is " +num2};     
+};
+ console.log(graterNum (25, 35));
